@@ -1,3 +1,73 @@
+/* selectors */
+
+/*  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  font-size: 16px;
+}
+
+*/
+
+/* element selector */
+/* h1,
+h2 {
+  color: blue;
+} */
+/* class selector: specificity overrules any following rules */
+
+/* .grey {
+  color: #666;
+}
 p {
-  font-size: 64px;
+  color: purple;
+} */
+
+/* The cascade will read this last and will override previous rules  */
+/* p {
+  color: red;
+}
+
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+} */
+
+/* id selector */
+/* #second {
+  font-style: italic;
+}  */
+
+/* colors */
+
+/* body {
+  font-size: 22px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: papayawhip;
+  color: darkblue;
+} */
+
+/* box model */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container {
+  border: 2px dashed red;
+  font-size: 1.5rem;
+  /* margin-top: 1.5em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em; */
+  margin: 1.5em 2em 2em 2em;
+  padding: 1.5em;
 }
