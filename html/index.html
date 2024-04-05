@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <h1>Hello World</h1>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>CatPhotoApp</h2>
+    <main>
+      <!-- ToDo: Add link to cat photos -->
+      <p>
+        Click Here to view more cat photos
+        <a href="https://stock.adobe.com/search?k=cat" target="_blank"
+          >cat photos</a
+        >
+      </p>
+      <a href="#">
+        <img
+          src="https://t3.ftcdn.net/jpg/06/05/37/40/240_F_605374009_hEUHatmKPzuHTIacg7rLneAgnLHUgegM.jpg"
+          alt="very cool cat wearing sunglasses and headphones"
+      /></a>
+      <h3>Cat Lists</h3>
+      <p>Things cats <em>love:</em></p>
+      <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+      </ul>
+      <img src="lasagna.jpg" alt="lasagna" />
+      <ol>
+        <li>Top 3 things cats <strong>hate:</strong></li>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+      </ol>
+      <img src="cats.jpg" alt="cats" />
+      <form action="/submit-cat-photo">
+        <label for="indoor">
+          <input id="indoor" type="radio" name="indoor-outdoor" /> Indoor
+        </label>
+        <label for="outdoor">
+          <input id="outdoor" type="radio" name="indoor-outdoor" /> Outdoor
+        </label>
+        <label for="loving">
+          <input id="loving" type="checkbox" name="personality" /> Loving
+        </label>
+        <label for="lazy">
+          <input id="lazy" type="checkbox" name="personality" /> Lazy
+        </label>
+        <label for="energetic">
+          <input id="energetic" type="checkbox" name="personality" /> Energetic
+        </label>
+        <input type="text" placeholder="cat photo URL" required />
+        <button type="submit">Submit</button>
+    </main>
+  </body>
 </html>
