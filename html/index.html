@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Cat Photo App</title>
   </head>
   <body>
     <h2>CatPhotoApp</h2>
@@ -21,19 +21,21 @@
           alt="very cool cat wearing sunglasses and headphones"
       /></a>
       <h3>Cat Lists</h3>
-      <p>Things cats <em>love:</em></p>
-      <ul>
-        <li>cat nip</li>
-        <li>laser pointers</li>
-        <li>lasagna</li>
-      </ul>
-      <img src="lasagna.jpg" alt="lasagna" />
-      <ol>
-        <li>Top 3 things cats <strong>hate:</strong></li>
-        <li>flea treatment</li>
-        <li>thunder</li>
-        <li>other cats</li>
-      </ol>
+      <div>
+        <p>Things cats <em>love:</em></p>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <img src="lasagna.jpg" alt="lasagna" />
+        <ol>
+          <li>Top 3 things cats <strong>hate:</strong></li>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+      </div>
       <img src="cats.jpg" alt="cats" />
       <form action="/submit-cat-photo">
         <label for="indoor">
@@ -51,8 +53,10 @@
         <label for="energetic">
           <input id="energetic" type="checkbox" name="personality" /> Energetic
         </label>
-        <input type="text" placeholder="cat photo URL" required />
+        <input type="text" placeholder="cat photo URL" />
         <button type="submit">Submit</button>
+      </form>
     </main>
+    <footer>&copy; 2020 CatPhotoApp</footer>
   </body>
 </html>
